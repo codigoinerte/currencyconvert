@@ -1,0 +1,53 @@
+.currency-info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.currency-info .bar {
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+    background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.currency-info .bar::before {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+    background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+}
+.currency-info .bar::after {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: -2px;
+    background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+    background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+}
+.currency-info span:last-child {
+    margin-left: 15px;
+}
+.currency-info span {
+    display: inline-block;
+    color: #6084a4;
+    font-size: 14px;
+}
+.currency-info span strong {
+    color: #0e314c;
+}

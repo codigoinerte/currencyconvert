@@ -1,0 +1,105 @@
+*,
+*:focus,
+*:visited{
+    outline: none !important;
+    box-shadow: none !important;
+}
+body{
+    flex:1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    background-color: #1b1c27;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    line-height: normal;
+}
+.main{
+    
+    flex:1;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    
+}
+.title{
+    color: #000;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0px auto 15px auto;
+}
+.btn {
+    font-weight: 700;
+    border: none;
+    padding: 14.5px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: initial;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+    border: 0px !important;
+}
+.btn:active{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.loader{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);    
+}
+/*****/
+
+.money-transfer-form form .btn::before {
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.money-transfer-form form .btn::after {
+    background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+    background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+}
+.btn-primary::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}

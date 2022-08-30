@@ -1,0 +1,38 @@
+.amount-currency-select > .rs-picker{    
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e314c;
+    border-radius: 0 5px 5px 0;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn{
+    height: 100%;
+    flex:1;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e314c !important;
+    border-radius: 0 5px 5px 0;
+}
+.rs-picker-default .rs-btn, .rs-picker-default .rs-picker-toggle,
+.rs-picker-input .rs-btn, .rs-picker-input .rs-picker-toggle{
+    background-color: #0e314c !important; 
+}
+.rs-picker-default .rs-picker-toggle.rs-btn .rs-picker-toggle-caret,
+.rs-picker-default .rs-picker-toggle.rs-btn .rs-picker-toggle-clean{
+    top: 50% !important;
+    transform:translateY(-50%);
+    color: #fff;
+}
+.rs-picker-toggle .rs-picker-toggle-placeholder,
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value{
+    color: #fff !important;
+}
+.rs-picker-select-menu{
+    max-height: 200px;
+}

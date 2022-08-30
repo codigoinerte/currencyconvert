@@ -1,0 +1,54 @@
+.form-group {
+    position: relative;
+    background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+    background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+    padding: 36px 10px 12px 15px;
+    border-radius: 5px;
+}
+.form-group label {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    color: #f9f9f9;
+    margin-bottom: 0;
+    display: block;
+    font-weight: 300;
+    font-size: 13.5px;
+}
+.form-group input:focus{
+    border-color: none;
+    box-shadow: none;
+}
+.form-group .form-control {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+    height: auto;
+    line-height: initial;
+    padding-right: 95px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.form-group .amount-currency-select {
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    max-width: 100px;
+}
+::placeholder{
+    color: #ffffff !important;
+}
+::-moz-placeholder{
+    color: #ffffff !important;
+}
+::-webkit-input-placeholder{
+    color: #ffffff !important;
+}
+
+::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
