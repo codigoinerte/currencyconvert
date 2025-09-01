@@ -8,6 +8,7 @@ import { useForm } from '../hooks';
 
 import 'rsuite/dist/rsuite.min.css';
 import '../assets/global.css';
+import toast, { Toaster } from 'react-hot-toast';
 
 export const HomeScreen = () => {
 
@@ -24,24 +25,12 @@ export const HomeScreen = () => {
         e.preventDefault();
 
         if(firstSelect == ''){
-            Swal.fire({
-                title: 'Error!',
-                text: 'Select first currency',
-                icon: 'error',
-                confirmButtonText: 'Close'
-            });
-
+            toast.error("Seleccione la primera moneda")
             return false;
         }
         
         if(secondSelect == ''){
-            Swal.fire({
-                title: 'Error!',
-                text: 'Select second currency',
-                icon: 'error',
-                confirmButtonText: 'Close'
-            });
-
+            toast.error("Seleccione la segunda moneda")
             return false;
         }
 
@@ -90,7 +79,7 @@ export const HomeScreen = () => {
                         <button type="submit" className="btn btn-primary">Convert</button>
                     </div>
                 </form>   
-
+                <div><Toaster/></div>
             </div>
         </>
     )
