@@ -532,3 +532,22 @@ input  { font-family: var(--font-mono); }
 .h-arrow { color: var(--blue); font-size: 11px; }
 .h-result { font-family: var(--font-mono); font-size: 14px; font-weight: 600; color: var(--t1); }
 .h-time { font-size: 10px; color: var(--t3); margin-top: 2px; }
+
+@media(max-width: 767px){
+  .dashboard{
+    height: auto;
+    min-height:100vh;
+  }
+  .chart-wrapper{
+    height: 320px;
+  }
+  .main-area{
+    grid-template-columns: 1fr;
+  }
+  .asset-list{
+    min-height: 250px;
+  }
+  .converter-form{
+    min-height: 250px;
+  }
+}
