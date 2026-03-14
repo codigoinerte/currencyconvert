@@ -81,6 +81,10 @@ input  { font-family: var(--font-mono); }
   font-family: var(--font-ui);
   outline: none;
 }
+.topbar-quote-select option{
+  background: #fff;
+  color: #000;
+}
 
 .topbar-quote-select:hover { border-color: var(--bd2); color: var(--t1); }
 
