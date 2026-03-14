@@ -71,9 +71,9 @@ input  { font-family: var(--font-mono); }
 .topbar-spacer { flex: 1; }
 
 .topbar-quote-select {
-  background: var(--bg2);
-  border: 1px solid var(--bd);
-  color: var(--t2);
+  background: #00AFFA;
+  border: none;
+  color: #fff;
   font-size: 12px;
   padding: 5px 8px;
   border-radius: var(--r-sm);
