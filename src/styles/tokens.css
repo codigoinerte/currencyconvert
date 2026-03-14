@@ -1,0 +1,45 @@
+:root {
+  /* Backgrounds */
+  --bg0: #0e0f11;
+  --bg1: #16181c;
+  --bg2: #1e2026;
+  --bg3: #262930;
+
+  /* Borders */
+  --bd:  #2e3138;
+  --bd2: #3a3e47;
+
+  /* Text */
+  --t1: #f0f2f5;
+  --t2: #9099a8;
+  --t3: #555d6b;
+
+  /* Semantic */
+  --green:  #22c87a;
+  --red:    #f04f5a;
+  --blue:   #4d8ef7;
+  --amber:  #f5a623;
+  --purple: #a78bfa;
+
+  /* Typography */
+  --font-ui:   'Outfit', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* Radius */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-xl: 18px;
+}
+
+[data-theme="light"] {
+  --bg0: #f5f5f3;
+  --bg1: #ffffff;
+  --bg2: #f0f0ee;
+  --bg3: #e8e8e5;
+  --bd:  #dcdcda;
+  --bd2: #c8c8c5;
+  --t1:  #111111;
+  --t2:  #555555;
+  --t3:  #999999;
+}
