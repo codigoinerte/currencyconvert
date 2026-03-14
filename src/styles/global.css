@@ -56,7 +56,7 @@ input  { font-family: var(--font-mono); }
   letter-spacing: -0.5px;
 }
 
-.topbar-logo span { color: var(--blue); }
+.topbar-logo span { color: #FAD500; }
 
 .topbar-pair {
   font-family: var(--font-mono);

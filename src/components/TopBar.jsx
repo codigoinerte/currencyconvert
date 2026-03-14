@@ -8,7 +8,7 @@ export default function TopBar() {
   return (
     <header className="topbar">
       <div className="topbar-logo">
-        fx<span>dash</span>
+        currency <span>convert</span>
       </div>
 
       <span className="topbar-pair">
